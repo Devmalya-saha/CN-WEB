@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Hind&family=Hind+Siliguri&family=Rubik&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #1e1f1e;
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.head {
+  display: flex;
+  margin: 10px;
+}
+#sidetab {
+  width: 150vh;
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-left: 150px;
+  padding-top: 10px;
+}
+#sidetab li {
+  margin: 0px 20px;
+  height: 40px;
+}
+#sidetab a {
+  text-decoration: none;
+  font-size: 22px;
+  padding: 0px 12px;
+}
+#sup {
+  height: 33px;
+  border: 3px solid #655950;
+  border-radius: 5px;
+  padding: 0px 12px;
+}
+#sidetab a:hover {
+  background: #655950;
+  border-radius: 5px;
+}
+.second {
+  display: flex;
+}
+.sec-left,
+.sec-right {
+  width: 60vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 150px;
+  font-size: 23px;
+}
+.sec-left h1 {
+  font-size: 55px;
+}
+.sec-left p {
+  margin: 50px 0px;
+}
+.sec-left button {
+  width: 25vh;
+  font-size: 25px;
+  background-color: #655950;
+  border: transparent;
+}
+.sec-left button:hover {
+  background-color: transparent;
+  border: 2px solid #655950;
+}
+.sec-right {
+  border: 2px solid white;
+  margin: 50px;
+  padding: 10px;
+  width: 90vh;
+  height: 70vh;
+}
+#circles {
+  border: 1px solid white;
+  width: 2vh;
+  height: 2vh;
+  margin: 5px;
+  border-radius: 100%;
+}
+#first-item {
+  display: flex;
+}
+#second-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#circle1,
+#squareblack,
+#blackcircle {
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid white;
+  margin-top: 100px;
+  margin-left: 10vh;
+}
+#circle1 {
+  border-radius: 100%;
+}
+#squareblack {
+  background-color: white;
+}
+#blackcircle,
+#fblackcircle {
+  width: 2vh;
+  height: 2vh;
+  margin-top: 170px;
+  border-radius: 100%;
+  background-color: white;
+}
+#third-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#triangle1 {
+  -webkit-text-stroke: 3px white;
+  color: transparent;
+  font-size: 15vh;
+
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+#triangle2 {
+  -webkit-text-stroke: 3px white;
+  color: transparent;
+  font-size: 15vh;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+#fourth-item {
+  display: flex;
+  justify-content:center ;
+ 
+}
+#fblackcircle {
+  margin-top: 0px;
+  display: flex;
+  margin-right:50px;
+  
+}
+#ftriangle1{
+ -webkit-text-stroke: 3px white;
+  font-size: 15vh;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  margin-right:35px;
+  
+}
+#fcircle1{
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-right:205px;
+
+}
+.third{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height:30vh;
+  background-color: #323333;
+}
+.third p{
+  font-size:25px;
+  background-color: #323333;
+}
+#thcircle{
+  display:flex;
+  background-color: #323333;
+}
+#tcircle{
+  height:10vh;
+  width:10vh;
+  background-color: white;
+  border-radius:100%;
+  margin: 10px 30px;
+ 
+}
+.fourth{
+  background-color: white;
+  height:80vh;
+  display: flex;
+}
+.fourth-left{
+  height:50vh;
+  background-color: white;
+  width:100vh;
+  padding: 80px;
+  color: black;
+}
+.fourth-left h1{
+  font-size:65px;
+}
+.fourth-left p,.fourth-left h1{
+  background-color: white;
+  color: black;
+  margin-top:30px;
+  
+}
+.fourth-left p{
+  padding-right:100px;
+}
